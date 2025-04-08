@@ -553,7 +553,7 @@ cancellation_event_map = {}
 
 # The following code creates the GUI
 with gr.Blocks(
-    title="PDFMathTranslate",
+    title="PDFMathTranslate - PDF Translation with preserved formats",
     theme=gr.themes.Default(
         primary_hue=custom_blue, spacing_size="md", radius_size="lg"
     ),
