@@ -553,7 +553,7 @@ cancellation_event_map = {}
 
 # The following code creates the GUI
 with gr.Blocks(
-    title="PDFMathTranslate - PDF Translation with preserved formats",
+    title="PDFMathTranslate",
     theme=gr.themes.Default(
         primary_hue=custom_blue, spacing_size="md", radius_size="lg"
     ),
@@ -561,7 +561,7 @@ with gr.Blocks(
     head=demo_recaptcha if flag_demo else "",
 ) as demo:
     gr.Markdown(
-        "# [PDFMathTranslate]()"
+        "# [PDFMathTranslate](https://github.com/Machrev/PDFMathTranslate)"
     )
 
     with gr.Row():
