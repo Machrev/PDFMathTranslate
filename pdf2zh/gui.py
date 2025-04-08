@@ -560,7 +560,7 @@ with gr.Blocks(
     css=custom_css,
     head=demo_recaptcha if flag_demo else "",
 ) as demo:
-    gr.Markdown("# [PDFMathTranslate](https://github.com/Machrev/PDFMathTranslate)")
+    gr.Markdown("# [PDFMathTranslate]()")
 
     with gr.Row():
         with gr.Column(scale=1):
